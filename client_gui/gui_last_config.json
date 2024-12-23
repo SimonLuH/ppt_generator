@@ -1,0 +1,7 @@
+{
+  "template_path": "/Users/luhao/Downloads/总监述职概要模版1221.pptx",
+  "excel_dir": "/Users/luhao/Downloads/大区拆",
+  "output_dir": "/Users/luhao/PycharmProjects/ppt/output",
+  "slide_mappings_file": "/Users/luhao/PycharmProjects/ppt/client_gui/总监.json",
+  "max_workers": "10"
+}

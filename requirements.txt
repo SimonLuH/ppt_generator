@@ -1,0 +1,4 @@
+python-pptx==0.6.21
+openpyxl==3.1.0
+PyQt5
+PyInstaller
