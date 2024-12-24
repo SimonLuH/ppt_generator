@@ -27,7 +27,7 @@
 
 ## 先决条件
 
-- **Python 3.7 及以上版本**
+- **Python 3.9 及以上版本**
 - **pip**（Python 包管理器）
 
 ## 安装指南
@@ -61,7 +61,7 @@
     2:  {'type': 'row_for_page',      'sheet': '区域组织健康度构成'},
     3:  {'type': 'row_for_table_row', 'sheet': '区域高绩效人才盘点及目标规划'},
     # 根据需要添加更多映射
-}
+  }
 4、**运行程序**
   ```python
   python gui_main.py
