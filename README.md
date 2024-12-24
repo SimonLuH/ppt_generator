@@ -122,7 +122,7 @@ ppt-generation-client/
 │   ├── controller/
 │   │   └── processing_controller.py  # 处理任务控制器
 │   ├── gui/
-│   │   └── main_window.py    # 主 GUI 窗口
+│   │   └── main_window.py    # 主 GUI 窗口【应用程序入口】
 │   ├── model/
 │   │   └── mapping_model.py  # 映射数据模型
 │   ├── services/
@@ -150,7 +150,7 @@ ppt-generation-client/
 │
 ├── gui_last_config.json      # 存储上次使用的配置
 ├── requirements.txt           # Python 依赖包
-└── main.py                    # 应用程序入口
+└── main.py                    
 
 ```
 
