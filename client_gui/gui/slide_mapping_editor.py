@@ -12,6 +12,9 @@ class SlideMappingEditor(QDialog):
 
     def __init__(self, mapping_file: str, parent=None):
         super().__init__(parent)
+        self.btn_cancel = None
+        self.text_edit = None
+        self.btn_save = None
         self.setWindowTitle("编辑Slide Mappings")
         self.resize(600, 400)
         self.mapping_file = mapping_file

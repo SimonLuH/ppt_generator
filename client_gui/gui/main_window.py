@@ -22,6 +22,20 @@ class PPTClientGUI(QMainWindow):
 
     def __init__(self, parent=None):
         super().__init__(parent)
+        self.log_box = None
+        self.input_max_workers = None
+        self.label_max_workers = None
+        self.progress_bar = None
+        self.btn_stop = None
+        self.btn_run = None
+        self.btn_edit_mapping = None
+        self.btn_select_mapping = None
+        self.btn_output = None
+        self.edit_output = None
+        self.btn_excel = None
+        self.edit_excel = None
+        self.btn_template = None
+        self.edit_template = None
         self.setWindowTitle("PPT生成客户端 - 可选自定义Mappings")
         self.resize(900, 500)
         self.worker = None
