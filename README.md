@@ -149,9 +149,7 @@ ppt-generation-client/
 │   └── exception_handler.py   # 异常处理工具
 │
 ├── gui_last_config.json      # 存储上次使用的配置
-├── requirements.txt           # Python 依赖包
-└── main.py                    
-
+├── requirements.txt           # Python 依赖包                  
 ```
 
 ## 依赖
