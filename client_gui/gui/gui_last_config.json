@@ -1,7 +1,7 @@
 {
-  "template_path": "/Users/luhao/Downloads/总监述职概要模版1221.pptx",
-  "excel_dir": "/Users/luhao/Downloads/大区拆",
+  "template_path": "/Users/luhao/Downloads/PPT制作/2025.4.2一季度复盘PPT-模版(标记)-终版.pptx",
+  "excel_dir": "/Users/luhao/Downloads/PPT制作/excel/4.2PPT数据-12.56",
   "output_dir": "/Users/luhao/PycharmProjects/ppt/client_gui/output",
-  "slide_mappings_file": "/Users/luhao/Desktop/总监.json",
-  "max_workers": "10"
+  "slide_mappings_file": "/Users/luhao/Desktop/门店.json",
+  "max_workers": "30"
 }

@@ -6,7 +6,7 @@ from openpyxl.utils import get_column_letter
 from datetime import datetime
 from decimal import Decimal, ROUND_HALF_UP
 
-def round_half_up(value, ndigits=2):
+def round_half_up(value, ndigits):
     """
     传统四舍五入到 ndigits 位小数
     """
@@ -48,7 +48,12 @@ class ExcelDataProvider:
                     if cell_value is not None:
                         non_empty_flag = True
                         if isinstance(cell_value, float):
-                            cell_value = round_half_up(cell_value, 2)
+                            format = cell.number_format
+                            if '%' in format:
+                                percentage_value = round_half_up(cell_value * 100, 2)
+                                cell_value = f"{percentage_value}%"
+                            else:
+                                cell_value = round_half_up(cell_value, 3)
                         elif isinstance(cell_value, datetime):
                             cell_value = cell_value.strftime('%Y-%m-%d')
                     else:

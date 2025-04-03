@@ -191,10 +191,10 @@ class PPTClientGUI(QMainWindow):
         打开映射编辑器窗口。
         """
         try:
-            from ppt_client.gui.slide_mapping_editor import SlideMappingEditor
+            from client_gui.gui.slide_mapping_editor import SlideMappingEditor
             editor = SlideMappingEditor(self.mapping_file, self)
             if editor.exec_() == SlideMappingEditor.Accepted:
-                self.mapping_file = editor.get_mapping_file()
+                self.mapping_file = editor.mapping_file
                 self.log_box.appendPlainText(f"映射文件已更新: {self.mapping_file}")
         except Exception as e:
             QMessageBox.critical(self, "错误", f"编辑映射失败: {e}")
