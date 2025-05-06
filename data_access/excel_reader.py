@@ -53,7 +53,7 @@ class ExcelDataProvider:
                                 percentage_value = round_half_up(cell_value * 100, 2)
                                 cell_value = f"{percentage_value}%"
                             else:
-                                cell_value = round_half_up(cell_value, 3)
+                                cell_value = round_half_up(cell_value, 2)
                         elif isinstance(cell_value, datetime):
                             cell_value = cell_value.strftime('%Y-%m-%d')
                     else:

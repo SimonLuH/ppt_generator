@@ -1,7 +1,7 @@
 {
-  "template_path": "/Users/luhao/Downloads/PPT制作/2025.4.2一季度复盘PPT-模版(标记)-终版.pptx",
-  "excel_dir": "/Users/luhao/Downloads/PPT制作/excel/4.2PPT数据-12.56",
+  "template_path": "/Users/luhao/Downloads/PPT制作/5月市占率复盘-模版-战区.pptx",
+  "excel_dir": "/Users/luhao/Downloads/拆数据",
   "output_dir": "/Users/luhao/PycharmProjects/ppt/client_gui/output",
-  "slide_mappings_file": "/Users/luhao/Desktop/门店.json",
+  "slide_mappings_file": "/Users/luhao/Desktop/商圈.json",
   "max_workers": "30"
 }
