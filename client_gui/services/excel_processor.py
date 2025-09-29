@@ -23,8 +23,8 @@ def process_excel_file(
         output_path = os.path.join(output_dir, output_ppt_filename)
 
         if os.path.exists(output_path):
-            logger.info(f"已存在同名PPT，跳过: {output_ppt_filename}")
-            return False  # 未处理
+            logger.info(f"已存在同名PPT，将覆盖: {output_ppt_filename}")
+            # 继续处理，允许覆盖
 
         provider = ExcelDataProvider(excel_path)
         process_ppt_with_data(

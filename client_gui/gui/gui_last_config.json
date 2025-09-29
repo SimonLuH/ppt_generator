@@ -2,6 +2,6 @@
   "template_path": "/Users/luhao/Downloads/PPT制作/5月市占率复盘-模版-战区.pptx",
   "excel_dir": "/Users/luhao/Downloads/拆数据",
   "output_dir": "/Users/luhao/PycharmProjects/ppt/client_gui/output",
-  "slide_mappings_file": "/Users/luhao/Desktop/商圈.json",
+  "slide_mappings_file": "/Users/luhao/PycharmProjects/ppt/slide_mapping_template.json",
   "max_workers": "30"
 }
